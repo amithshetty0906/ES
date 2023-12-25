@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1692167875 source:e:\msis\aug 2023\vlsi\god_bless_me\main.c
+	<assert.h>
+	<stdlib.h>
+	<stdio.h>
+	"array.h"
+
+1692166211 e:\msis\aug 2023\vlsi\god_bless_me\array.h
+
+1692167803 source:e:\msis\aug 2023\vlsi\god_bless_me\array_op.c
+	<stdlib.h>
+	"array.h"
+

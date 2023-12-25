@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1691639273 source:e:\msis\aug 2023\esd\array_static\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"array.h"
+
+1691643725 e:\msis\aug 2023\esd\array_static\array.h
+
+1691643747 source:e:\msis\aug 2023\esd\array_static\array_op.c
+	"array.h"
+

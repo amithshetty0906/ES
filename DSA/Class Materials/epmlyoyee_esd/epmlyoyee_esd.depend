@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1584205420 source:e:\msis\aug 2023\vlsi\epmlyoyee_esd\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1692937828 source:e:\msis\aug 2023\vlsi\epmlyoyee_esd\employee_op.c
+	<stdlib.h>
+	"employee.h"
+
+1692937787 e:\msis\aug 2023\vlsi\epmlyoyee_esd\employee.h
+
+1695023460 source:c:\users\amith\onedrive\embedded system\dsa\class materials\epmlyoyee_esd\employee_op.c
+	<stdlib.h>
+	"employee.h"
+
+1695023460 c:\users\amith\onedrive\embedded system\dsa\class materials\epmlyoyee_esd\employee.h
+
+1695023460 source:c:\users\amith\onedrive\embedded system\dsa\class materials\epmlyoyee_esd\main.c
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	"employee.h"
+

@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1695064673 source:c:\users\amith\downloads\employee\main.c
+	<stdio.h>
+	<stdlib.h>
+	"assert.h"
+	"emp.h"
+
+1695057498 source:c:\users\amith\downloads\employee\emi_op.c
+	"emp.h"
+
+1695065360 c:\users\amith\downloads\employee\emp.h
+	<stdio.h>
+	<stdlib.h>
+
+1695065372 source:c:\users\amith\downloads\employee\emp_ope.c
+	"emp.h"
+
+1695066630 source:c:\users\amith\onedrive\embedded system\dsa\practice dsa\employee\emp_ope.c
+	"emp.h"
+
+1695066565 c:\users\amith\onedrive\embedded system\dsa\practice dsa\employee\emp.h
+	<stdio.h>
+	<stdlib.h>
+
+1695066628 source:c:\users\amith\onedrive\embedded system\dsa\practice dsa\employee\main.c
+	<stdio.h>
+	<stdlib.h>
+	"assert.h"
+	"emp.h"
+

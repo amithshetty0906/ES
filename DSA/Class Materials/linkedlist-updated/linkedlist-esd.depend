@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1693973402 source:e:\msis\aug 2023\vlsi\linkedlist-esd\list_op.c
+	<stdlib.h>
+	"list.h"
+
+1693973402 e:\msis\aug 2023\vlsi\linkedlist-esd\list.h
+
+1693972288 source:e:\msis\aug 2023\vlsi\linkedlist-esd\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"list.h"
+

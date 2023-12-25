@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1692246393 source:e:\msis\aug 2023\vlsi\array_dynamic\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"array.h"
+
+1692246446 e:\msis\aug 2023\vlsi\array_dynamic\array.h
+
+1692245459 source:e:\msis\aug 2023\vlsi\array_dynamic\array_op.c
+	<stdlib.h>
+	"array.h"
+
+1695023459 source:c:\users\amith\onedrive\embedded system\dsa\class materials\array_dynamic\array_op.c
+	<stdlib.h>
+	"array.h"
+
+1695023459 c:\users\amith\onedrive\embedded system\dsa\class materials\array_dynamic\array.h
+
+1695023459 source:c:\users\amith\onedrive\embedded system\dsa\class materials\array_dynamic\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"array.h"
+

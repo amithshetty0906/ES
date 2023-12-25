@@ -1,0 +1,4 @@
+In a place x there is an auditorium for the rental. 
+customers can book the auditorium for a whole day or till noon or for the evening.
+The whole day charges is 75000 for noon 50000 for evening 30000.Allow customers to
+book the auditorium ensure no to customers to book the same slot on the same date.
