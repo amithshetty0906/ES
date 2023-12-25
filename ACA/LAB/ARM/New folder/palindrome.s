@@ -1,0 +1,27 @@
+	AREA PALLINDROME,CODE,READONLY
+	ENTRY
+START
+    LDR R0,=Array;
+	LDR R1,=ArrayEnd;
+	LDR R5,=Length
+	LDR R6,[R5]
+	MOV R8,R6, LSR #1
+LOOP
+	LDRB R2,[R0],#1
+	LDRB R3,[R1,#-1]!
+    ADD R4,R4,#1
+	CMP R2,R3
+	BNE STOP
+	CMP R8,R4
+	BHI LOOP
+	CMP R4,R6, LSR #1
+	BNE STOP
+	MOV R7,#1
+STOP B STOP
+Array
+	DCB "madam"
+ArrayEnd
+    ALIGN
+Length
+    DCD 5
+	END

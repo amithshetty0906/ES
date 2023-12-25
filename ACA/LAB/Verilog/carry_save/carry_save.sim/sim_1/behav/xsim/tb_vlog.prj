@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../carry_save.srcs/sources_1/new/carry_save.v" \
+"../../../../carry_save.srcs/sources_1/new/fulladd.v" \
+"../../../../carry_save.srcs/sources_1/new/halfadd.v" \
+"../../../../carry_save.srcs/sources_1/new/ripple4add.v" \
+"../../../../carry_save.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

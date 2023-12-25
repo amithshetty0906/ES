@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/AMITH/OneDrive/EMBEDDED SYSTEM/ACA/LAB/xorg/xorg.srcs/sources_1/new/xorg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xorg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/AMITH/OneDrive/EMBEDDED SYSTEM/ACA/LAB/xorg/xorg.srcs/sim_1/new/xortb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xortb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/AMITH/OneDrive/EMBEDDED SYSTEM/ACA/LAB/xorg/xorg.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

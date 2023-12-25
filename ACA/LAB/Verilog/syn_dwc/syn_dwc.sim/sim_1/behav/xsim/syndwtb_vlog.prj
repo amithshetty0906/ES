@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../syn_dwc.srcs/sources_1/new/syn_dwc.v" \
+"../../../../syn_dwc.srcs/sim_1/new/syndwtb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

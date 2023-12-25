@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Nov  9 09:05:19 2023
+# Process ID: 20464
+# Current directory: C:/Users/AMITH/Downloads/verilog (5)/sipo_s
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15428 C:\Users\AMITH\Downloads\verilog (5)\sipo_s\sipo_s.xpr
+# Log file: C:/Users/AMITH/Downloads/verilog (5)/sipo_s/vivado.log
+# Journal file: C:/Users/AMITH/Downloads/verilog (5)/sipo_s\vivado.jou
+# Running On: LAPTOP-FASQBITV, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 17008 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/AMITH/Downloads/verilog (5)/sipo_s/sipo_s.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim

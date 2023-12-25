@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/aca2301390021/not/not.srcs/sources_1/new/norg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module norg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/aca2301390021/not/not.srcs/sim_1/new/nortb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nortb

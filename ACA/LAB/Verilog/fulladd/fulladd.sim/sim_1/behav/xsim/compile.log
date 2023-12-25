@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/aca2301390021/fulladd/fulladd.srcs/sources_1/new/fulladd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladd
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/aca2301390021/fulladd/fulladd.srcs/sim_1/new/teatfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module teatfa
