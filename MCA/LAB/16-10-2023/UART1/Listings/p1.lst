@@ -1,0 +1,99 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             EX,CODE,READWRITE
+    2 00000000                 ENTRY
+    3 00000000 E3A0500D 
+                       START   MOV              r5,#0X0000000D
+    4 00000004 E59F0048        LDR              r0,=Array
+    5 00000008 E59F6048        LDR              r6,=ArrayEnd
+    6 0000000C E5902000        LDR              r2,[r0]
+    7 00000010 E3550000 
+                       LOOP    CMP              r5,#0
+    8 00000014 0A000006        BEQ              STOP
+    9 00000018 E5B03004        LDR              r3,[r0,#4]!
+   10 0000001C E2455001        ADD              r5,r5,#-1
+   11 00000020 E1530002        CMP              r3,r2
+   12 00000024 4AFFFFF9        BMI              LOOP
+   13 00000028 E1A04002        MOV              r4,r2
+   14 0000002C E1A03002        MOV              r3,r2
+   15 00000030 EAFFFFF6        B                LOOP
+   16 00000034 EAFFFFFE 
+                       STOP    B                STOP
+   17 00000038         Array
+   18 00000038 00000001 
+              00000002 
+              00000003 
+              00000004 
+              00000005 
+              00000006 
+              00000007         DCD              &1,&2,&3,&4,&5,&6,&7
+   19 00000054         ArrayEnd
+   20 00000054                 END
+              00000000 
+              00000000 
+Command Line: --debug --xref --diag_suppress=9931 --apcs=interwork --depend=.\o
+bjects\p1.d -o.\objects\p1.o -IC:\Keil_v5\ARM\RV31\INC -IC:\Keil_v5\ARM\INC\Phi
+lips --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 538" --lis
+t=.\listings\p1.lst p1.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+Array 00000038
+
+Symbol: Array
+   Definitions
+      At line 17 in file p1.s
+   Uses
+      At line 4 in file p1.s
+Comment: Array used once
+ArrayEnd 00000054
+
+Symbol: ArrayEnd
+   Definitions
+      At line 19 in file p1.s
+   Uses
+      At line 5 in file p1.s
+Comment: ArrayEnd used once
+EX 00000000
+
+Symbol: EX
+   Definitions
+      At line 1 in file p1.s
+   Uses
+      None
+Comment: EX unused
+LOOP 00000010
+
+Symbol: LOOP
+   Definitions
+      At line 7 in file p1.s
+   Uses
+      At line 12 in file p1.s
+      At line 15 in file p1.s
+
+START 00000000
+
+Symbol: START
+   Definitions
+      At line 3 in file p1.s
+   Uses
+      None
+Comment: START unused
+STOP 00000034
+
+Symbol: STOP
+   Definitions
+      At line 16 in file p1.s
+   Uses
+      At line 8 in file p1.s
+      At line 16 in file p1.s
+
+6 symbols
+340 symbols in table

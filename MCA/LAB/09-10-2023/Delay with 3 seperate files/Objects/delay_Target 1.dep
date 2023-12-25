@@ -1,0 +1,15 @@
+Dependencies for Project 'delay', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5020028::V5.02 [Build 28]::.\ARMCC
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 538"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\delay.c)(0x65239DFF)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="538"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC214X.h)(0x6511127A)
+I (delay.h)(0x65239736)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x4EB0F5AC)
+F (.\main.c)(0x652396C9)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="538"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC214x.h)(0x6511127A)
+I (pll_init.h)(0x65239547)
+I (delay.h)(0x65239736)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x4EB0F5AC)
+F (.\pll_init.c)(0x6523955F)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="538"-o .\objects\pll_init.o --omf_browse .\objects\pll_init.crf --depend .\objects\pll_init.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC214X.h)(0x6511127A)
+I (pll_init.h)(0x65239547)

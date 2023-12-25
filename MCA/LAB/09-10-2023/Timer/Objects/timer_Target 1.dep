@@ -1,0 +1,8 @@
+Dependencies for Project 'timer', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5020028::V5.02 [Build 28]::.\ARMCC
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 538"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\timer.c)(0x65238E3E)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="538"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC214X.h)(0x6511127A)
+I (timer.h)(0x65238BF7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x4EB0F5AC)
+F (.\timer.h)(0x65238BF7)()
